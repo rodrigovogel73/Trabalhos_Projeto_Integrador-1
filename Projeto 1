@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 int main(){
 int a;
@@ -21,9 +23,321 @@ switch (a) {
         case 1:
             // L�gica do contador de �gua
             break;
-        case 2:
-            // L�gica da frase motivacional
+        case 2:{
+           
+           int numero;
+
+    srand(time(NULL));
+
+    numero = rand() % 100 + 1;
+
+    printf("Numero sorteado: %d\n", numero);
+    printf("A frase do dia é: ", numero);
+    
+    switch (numero) {
+    case 1:
+        printf("A vida sem reflexao nao vale a pena ser vivida. - Socrates\n");
+        break;
+    case 2:
+        printf("Conhece-te a ti mesmo e conheceras o universo e os deuses. - Socrates\n");
+        break;
+    case 3:
+        printf("Para mover o mundo, o primeiro passo e mover a si mesmo. - Socrates\n");
+        break;
+    case 4:
+        printf("So sei que nada sei, e o fato de saber isso me coloca a frente dos outros. - Socrates\n");
+        break;
+    case 5:
+        printf("Tente mover o mundo, mas comece movendo a si mesmo primeiro. - Socrates\n");
+        break;
+    case 6:
+        printf("A coisa mais dificil do mundo e conhecer a si mesmo, a mais facil e falar dos outros. - Thales de Mileto\n");
+        break;
+    case 7:
+        printf("Nenhum homem pode banhar-se duas vezes no mesmo rio, pois as aguas mudam. - Heraclito\n");
+        break;
+    case 8:
+        printf("Nada e permanente, exceto a constante mudanca e a transformacao do ser. - Heraclito\n");
+        break;
+    case 9:
+        printf("Nao ha nada de errado em mudar de ideia, desde que seja para evoluir. - Heraclito\n");
+        break;
+    case 10:
+        printf("O carater de um homem e o seu proprio destino e caminho a seguir. - Heraclito\n");
+        break;
+    case 11:
+        printf("Podemos facilmente perdoar uma crianca que tem medo do escuro; a verdadeira tragedia da vida e quando os homens têm medo da luz. - Platao\n");
+        break;
+    case 12:
+        printf("Tente mover o mundo, mas comece movendo a si mesmo e a sua mente. - Platao\n");
+        break;
+    case 13:
+        printf("O primeiro e melhor triunfo e conquistar a si mesmo e suas paixoes. - Platao\n");
+        break;
+    case 14:
+        printf("Bons amigos sao aqueles que nos estimulam a buscar o nosso melhor potencial. - Platao\n");
+        break;
+    case 15:
+        printf("Nao ha nada de tao estavel quanto a mudanca constante do nosso pensamento. - Platao\n");
+        break;
+    case 16:
+        printf("Somos o que fazemos repetidamente; a excelencia, portanto, nao e um ato, mas um habito. - Aristoteles\n");
+        break;
+    case 17:
+        printf("A coragem e a primeira das qualidades humanas, porque e a qualidade que garante as outras. - Aristoteles\n");
+        break;
+    case 18:
+        printf("A felicidade depende de nos mesmos e das escolhas que fazemos diariamente. - Aristoteles\n");
+        break;
+    case 19:
+        printf("Ter esperanca e ter o sonho do homem acordado em busca da sua verdade. - Aristoteles\n");
+        break;
+    case 20:
+        printf("A educacao tem raizes amargas, mas os seus frutos sao extremamente doces. - Aristoteles\n");
+        break;
+    case 21:
+        printf("Aquele que dominou os seus medos sera verdadeiramente um homem livre. - Aristoteles\n");
+        break;
+    case 22:
+        printf("Nao e por causa das coisas que ficamos angustiados, mas pela opiniao que temos delas. - Epicteto\n");
+        break;
+    case 23:
+        printf("Primeiro aprenda o significado do que voce diz, e entao fale com sabedoria. - Epicteto\n");
+        break;
+    case 24:
+        printf("A felicidade nao consiste em obter o que desejamos, mas em aceitar o que recebemos. - Epicteto\n");
+        break;
+    case 25:
+        printf("Homem livre e aquele que vive como quer, sem ser constrangido ou impedido. - Epicteto\n");
+        break;
+    case 26:
+        printf("A melhor vinganca e nao ser como aquele que cometeu a injustica contra voce. - Marco Aurelio\n");
+        break;
+    case 27:
+        printf("A nossa vida e aquilo que os nossos pensamentos a transformam diariamente. - Marco Aurelio\n");
+        break;
+    case 28:
+        printf("Quando acordar de manha, pense no privilegio que e estar vivo, pensar e amar. - Marco Aurelio\n");
+        break;
+    case 29:
+        printf("A felicidade da sua vida depende da qualidade dos seus pensamentos cotidianos. - Marco Aurelio\n");
+        break;
+    case 30:
+        printf("Insista em si mesmo; nunca tente imitar o estilo de outra pessoa. - Marco Aurelio\n");
+        break;
+    case 31:
+        printf("Muitas vezes sofremos mais na nossa imaginacao do que na propria realidade. - Seneca\n");
+        break;
+    case 32:
+        printf("Nenhum vento e favoravel para quem nao sabe para qual porto esta navegando. - Seneca\n");
+        break;
+    case 33:
+        printf("A sorte e o encontro da preparacao com a oportunidade no momento certo. - Seneca\n");
+        break;
+    case 34:
+        printf("Enquanto esperamos pela vida, a vida passa sem que estejamos atentos a ela. - Seneca\n");
+        break;
+    case 35:
+        printf("A vida e longa se voce souber como usa-la com sabedoria e proposito. - Seneca\n");
+        break;
+    case 36:
+        printf("Dificuldades fortalecem a mente, assim como o trabalho pesado fortalece o corpo. - Seneca\n");
+        break;
+    case 37:
+        printf("Nao importa o quao devagar voce va, desde que nao pare no meio do caminho. - Confucio\n");
+        break;
+    case 38:
+        printf("A nossa maior gloria nao reside em jamais cair, mas em levantar-nos sempre que caimos. - Confucio\n");
+        break;
+    case 39:
+        printf("O homem que move montanhas comeca sempre carregando pedras bem pequenas. - Confucio\n");
+        break;
+    case 40:
+        printf("Aquele que aprende mas nao pensa esta perdido; aquele que pensa mas nao aprende esta em perigo. - Confucio\n");
+        break;
+    case 41:
+        printf("Para onde quer que voce va, va com todo o seu coracao e dedicao. - Confucio\n");
+        break;
+    case 42:
+        printf("Aquele que conhece os outros e sabio; aquele que conhece a si mesmo e iluminado. - Lao Tse\n");
+        break;
+    case 43:
+        printf("Uma jornada de mil milhas precisa comecar com um unico e simples passo. - Lao Tse\n");
+        break;
+    case 44:
+        printf("A natureza nao se apressa, no entanto, tudo nela e realizado no tempo certo. - Lao Tse\n");
+        break;
+    case 45:
+        printf("Quando deixo de ser o que sou, eu me torno aquilo que posso vir a ser. - Lao Tse\n");
+        break;
+    case 46:
+        printf("Saber quando parar e o verdadeiro segredo para garantir a estabilidade. - Lao Tse\n");
+        break;
+    case 47:
+        printf("Penso, logo existo, encontrando na duvida a certeza do meu proprio pensamento. - Rene Descartes\n");
+        break;
+    case 48:
+        printf("Nao ha nada que esteja inteiramente em nosso poder senao os nossos proprios pensamentos. - Rene Descartes\n");
+        break;
+    case 49:
+        printf("Para melhorar a mente, devemos aprender menos e contemplar muito mais o mundo. - Rene Descartes\n");
+        break;
+    case 50:
+        printf("Divida cada dificuldade em tantas partes quantas forem possiveis e necessarias para resolve-la. - Rene Descartes\n");
+        break;
+    case 51:
+        printf("A paciencia e amarga, mas o seu fruto e doce e compensador ao final. - Jean-Jacques Rousseau\n");
+        break;
+    case 52:
+        printf("O homem nasce livre, e em toda parte ele se encontra acorrentado pelas circunstancias. - Jean-Jacques Rousseau\n");
+        break;
+    case 53:
+        printf("A liberdade e a capacidade de fazer o que e justo e correto para todos. - Jean-Jacques Rousseau\n");
+        break;
+    case 54:
+        printf("Podemos julgar o coracao de um homem pela forma como ele trata os animais. - Immanuel Kant\n");
+        break;
+    case 55:
+        printf("Aja apenas segundo uma maxima tal que possas ao mesmo tempo querer que ela se torne lei universal. - Immanuel Kant\n");
+        break;
+    case 56:
+        printf("Onde quer que a liberdade seja limitada, a dignidade humana sofre uma perda irreparavel. - Immanuel Kant\n");
+        break;
+    case 57:
+        printf("Avalia-se a inteligencia de um individuo pela quantidade de incertezas que ele e capaz de suportar. - Immanuel Kant\n");
+        break;
+    case 58:
+        printf("A felicidade nao e um ideal da razao, mas sim um ideal da nossa imaginacao. - Immanuel Kant\n");
+        break;
+    case 59:
+        printf("A vida e uma constante oscilacao entre a dor de desejar e o tedio da conquista. - Arthur Schopenhauer\n");
+        break;
+    case 60:
+        printf("O talento atinge um alvo que ninguem mais consegue atingir; o genio atinge um alvo que ninguem mais consegue ver. - Arthur Schopenhauer\n");
+        break;
+    case 61:
+        printf("A compaixao e a base de toda a moralidade e da verdadeira nobreza humana. - Arthur Schopenhauer\n");
+        break;
+    case 62:
+        printf("A maioria dos homens troca a sua saude por riqueza, e depois gasta a riqueza para recuperar a saude. - Arthur Schopenhauer\n");
+        break;
+    case 63:
+        printf("Aquele que tem um porquê para viver pode suportar quase qualquer como. - Friedrich Nietzsche\n");
+        break;
+    case 64:
+        printf("Fiquei magoado, nao por me teres mentido, mas por nao poder voltar a acreditar-te. - Friedrich Nietzsche\n");
+        break;
+    case 65:
+        printf("O que nao me mata, torna-me mais forte e preparado para o futuro. - Friedrich Nietzsche\n");
+        break;
+    case 66:
+        printf("Aquele que luta com monstros deve acautelar-se para nao tornar-se tambem um monstro. - Friedrich Nietzsche\n");
+        break;
+    case 67:
+        printf("20 + 20 + 20 + 7, ai e muito facil, professora, e six seven.\n");
+        break;
+    case 68:
+        printf("Sem a musica, a vida seria um erro e uma caminhada sem sentido. - Friedrich Nietzsche\n");
+        break;
+    case 69:
+        printf("Nao deixe para amanha a aura que pode farmar hoje.\n");
+        break;
+    case 70:
+        printf("A duvida nao e o oposto da fe; e um elemento essencial da propria busca. - Paul Tillich\n");
+        break;
+    case 71:
+        printf("Se voce quer entender o presente, estude o passado e suas liçoes. - Baruch Spinoza\n");
+        break;
+    case 72:
+        printf("Compreender e o primeiro passo para aceitar, e so com a aceitacao ha evolucao. - Baruch Spinoza\n");
+        break;
+    case 73:
+        printf("O maior erro que alguem pode cometer e o medo constante de cometer um erro. - Elbert Hubbard\n");
+        break;
+    case 74:
+        printf("Os limites da minha linguagem significam os limites do meu mundo e da minha percepcao. - Ludwig Wittgenstein\n");
+        break;
+    case 75:
+        printf("A vida e o que acontece enquanto voce esta ocupado fazendo outros planos para o futuro. - John Lennon\n");
+        break;
+    case 76:
+        printf("A liberdade e o que voce faz com o que fizeram de voce ao longo do tempo. - Jean-Paul Sartre\n");
+        break;
+    case 77:
+        printf("Vale mais um passaro na mao do que 67 voando.\n");
+        break;
+    case 78:
+        printf("O homem esta condenado a ser livre; porque uma vez arremessado no mundo, e responsavel por tudo o que faz. - Jean-Paul Sartre\n");
+        break;
+    case 79:
+        printf("Na profundidade do inverno, aprendi finalmente que havia dentro de mim um verao invencivel. - Albert Camus\n");
+        break;
+    case 80:
+        printf("A unica maneira de lidar com um mundo sem liberdade e tornar-se tao absolutamente livre que sua existencia seja um ato de revolta. - Albert Camus\n");
+        break;
+    case 81:
+        printf("Nao caminhe atras de mim, posso nao liderar. Nao caminhe na minha frente, posso nao seguir. Apenas caminhe ao meu lado. - Albert Camus\n");
+        break;
+    case 82:
+        printf("A vida e a soma de todas as suas escolhas cotidianas e conscientes. - Albert Camus\n");
+        break;
+    case 83:
+        printf("O homem e o unico ser que se recusa a ser o que ele realmente e. - Albert Camus\n");
+        break;
+    case 84:
+        printf("Devemos construir a nossa propria felicidade sem esperar a permissao do mundo. - Simone de Beauvoir\n");
+        break;
+    case 85:
+        printf("Que nada nos limite, que nada nos defina, que nada nos sujeite. Que a liberdade seja a nossa propria substancia. - Simone de Beauvoir\n");
+        break;
+    case 86:
+        printf("O verdadeiro valor de um ser humano e determinado por sua capacidade de libertar-se de si mesmo. - Albert Einstein\n");
+        break;
+    case 87:
+        printf("Vida e ter a coragem de ser quem voce e, apesar das expectativas alheias. - Clovis de Barros Filho\n");
+        break;
+    case 88:
+        printf("A felicidade e um instante de vida que vale a pena por si so, sem necessidade de justificativas. - Clovis de Barros Filho\n");
+        break;
+    case 89:
+        printf("Para que a vida valha a pena, e preciso que o momento presente seja potente e pleno. - Clovis de Barros Filho\n");
+        break;
+    case 90:
+        printf("A excelencia nao e um ponto de chegada, mas uma postura diante dos desafios da vida. - Clovis de Barros Filho\n");
+        break;
+    case 91:
+        printf("Amar e encontrar na felicidade do outro a sua propria e maior alegria. - Gottfried Leibniz\n");
+        break;
+    case 92:
+        printf("O homem nao e nada mais do que aquilo que ele faz de si mesmo ao longo da vida. - Jean-Paul Sartre\n");
+        break;
+    case 93:
+        printf("A verdadeira sabedoria esta em reconhecer a propria ignorancia diante da imensidao das coisas. - Socrates\n");
+        break;
+    case 94:
+        printf("A esperanca e o unico bem comum a todos os homens; aqueles que nada mais têm ainda a possuem. - Thales de Mileto\n");
+        break;
+    case 95:
+        printf("Se queres prever o futuro, estude com atencao as licoes do passado. - Confucio\n");
+        break;
+    case 96:
+        printf("A razao nos mostra o caminho, mas as paixoes sao os motores que nos movimentam. - Denis Diderot\n");
+        break;
+    case 97:
+        printf("A inteligencia sem carater e a maior ameaca para a sociedade e para o mundo. - Mario Sergio Cortella\n");
+        break;
+    case 98:
+        printf("Faca o seu melhor, na condicao que voce tem, enquanto nao tem condicoes melhores para fazer melhor ainda. - Mario Sergio Cortella\n");
+        break;
+    case 99:
+        printf("Conhecimento serve para encantar as pessoas, nao para humilha-las ou se sentir superior. - Mario Sergio Cortella\n");
+        break;
+    case 100:
+        printf("Nao nascemos prontos; vamos nos fazendo ao longo da vida através do aprendizado e do afeto. - Mario Sergio Cortella\n");
+        break;
+}
             break;
+        }
 
         case 3: {
             int sub_opcao;
